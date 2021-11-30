@@ -1,0 +1,22 @@
+{
+  "name": "hannahroy_hw5_portfolio_webapp",
+  "version": "1.0.0",
+  "description": "Hannah Roy Homework 5 for CSI 2520 Fall 2021",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "keywords": [
+    "hw5",
+    "js",
+    "express"
+  ],
+  "author": "Hannah Roy",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.15"
+  }
+}

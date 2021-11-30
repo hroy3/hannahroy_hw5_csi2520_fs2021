@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA_Compatible" content = "IE-Edge">
+        <meta name = "viewport" content  = "width=device-width, initial-scale = 1.0"> 
+        <title>Hannah Roy Homework 5</title>
+
+        <!-- Add CSS -->
+        <link rel="stylesheet" href="../public/css/styles.css">
+
+        <!--Add Favicon-->
+        <link rel="shortcut icon" href="../public/img/d20_favicon.jpg" type="image/x-icon">
+        <script src="https://kit.fontawesome.com/a9c3ea6bcb.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <header>
+            <h2>Welcome to Hannah Roy's Portfolio</h2>
+            <p>CSI 2520 HW5</p>
+        </header>
+        
+        <nav>
+            <h1>Home</h1>
+            <ul>
+                <li><a  class = "active" href = "/"> Home </a></li>
+                <li><a href = "/my_resume"> Resume </a> </li>
+                <li><a href = "/my_fun_facts"> Fun Facts </a> </li>
+                <li><a href = "/trivia">Trivia</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <section class = "picture_container">
+                <figure>
+                    <!--Add photo-->
+                    <img src = "../public/img/home_photo.jpg" width = "25%" height = "25%" alt = "A Picture of the Site Author 
+                    with two sandhill cranes">
+                    <figcaption>A Photo of the site creator with two sandhill cranes</figcaption>
+                </figure>
+            </section>
+
+            <blockquote>
+                <p>
+                    All that is gold does not glitter, <br>
+                    Not all who wander are lost;<br>
+                    The old that is strong does not wither,<br>
+                    Deep roots are not reached by the frost.<br>
+                    -J.R.R. Tolkien
+                </p>
+            </blockquote>
+
+            <section>
+                <h3>About Me</h3>
+                <p>
+                    I am a student currently studying Information Technology and Graphic Design. I graduated from a high school early
+                    college program after taking community college courses for several years before my freshman year of college.
+                    I am also an artist, and I have been learning to create digital art using software such as Photoshop, Illustractor, 
+                    and Clip Studio Paint.
+                </p>
+                <p>
+                    I am interested in web design, graphic design, and video game concept art. I hope to eventually start
+                    my own business to work as a freelancer designing websites, logos and icons, as well as creating
+                    enviornment, costume and character concept art for video games. For more information about me, visit
+                    <a href = "/my_resume"> my resume </a> and <a href = "my_fun_facts"> my fun facts </a>
+                    pages.
+                </p>
+            </section>
+
+            <section>
+                <label for = "progress">Progress to IT Major with Graphic Design Minor</label> <br>
+                <progress id = "progress" value = "73" max = "100">73%</progress> <br>
+                <p>73%</p>
+            </section>
+        </main>
+
+        <footer class = "footer">
+            <div class = "icon">
+                <a href = "mailto:hroy@oakland.edu" aria-label = "Email Icon">
+                    <i class="fa-solid fa-square-envelope fa-xl"></i></a>
+            </div>
+            <div class = "copy">
+                &copy; 2021 Hannah Roy<br>
+                <p>Oakland University</p>
+            </div>
+        </footer>
+    </body>
+</html>
